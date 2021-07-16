@@ -1,0 +1,2143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 22A397ACA3034491A417D221 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F7AB1FD453684FCF9E272EC7 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		84D371DDA46346DC9765EE01 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A26182FCFB6042CDB4BE0627 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				99D99CD8E5254389872D032B /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				337A7F0C63384C33BD1DBAC0 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		981EFD7D7BA1430C82BA6BE9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0B3271AE471347C7A1A014D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D8BF945624574C32B141C5C5 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				0E2B3FE5829646DB8FF70103 /* PBXTargetDependency */,
+				AB149D4C4A944A60964C6C13 /* PBXTargetDependency */,
+				0E69BC2C52BC4541B527C140 /* PBXTargetDependency */,
+				F81F943D0F9E4BE1809F2405 /* PBXTargetDependency */,
+				B0CEF13F180048B3B23DF1E0 /* PBXTargetDependency */,
+				2B80C08A8C3C4EDF9A88DA54 /* PBXTargetDependency */,
+				2E6033709E484AFDB515A3D4 /* PBXTargetDependency */,
+				B42F61E30C034B339E626463 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		32A78EC043C4472795C79838 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */ = {isa = PBXBuildFile; fileRef = BDE0E57A731D4C82BFBB4B3A /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */; };
+		3A671E3D0FC74A48B4353D5D /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/render.cpp */ = {isa = PBXBuildFile; fileRef = DA101E70305648EF97D9E066 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/render.cpp */; };
+		3B9C286998124F119A0268F1 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */ = {isa = PBXBuildFile; fileRef = DF31738ECFE04889B7498A17 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */; };
+		4659937A7BCF45E7BE441BF8 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */ = {isa = PBXBuildFile; fileRef = A8C32BECAD7B4EC29F842234 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */; };
+		4A4007950A594ACABD6B7369 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7AA2D81A548540639BE0B045 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */; };
+		5A93360F02F24528B486CAB5 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 175A1FC192DB4B6D95D4549B /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */; };
+		63FA6C86FD2D4FDD994EFFB7 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = E81EA530D5414A309EF3C1E6 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */; };
+		79E92FDD41CE4E10A66AAF30 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0E0E0ADCC9E443318102501C /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/CMakeLists.txt */; };
+		8F2B853CF2BD408BA6AEC89F /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock_main.cc */ = {isa = PBXBuildFile; fileRef = 2AE981248875426B95EB7F19 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock_main.cc */; };
+		9508FF791A6845FDA378FF67 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */ = {isa = PBXBuildFile; fileRef = 016EC66FB16242799572A40E /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */; };
+		960CE3667D294FA9B0FFE8CF /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 44551A3DA464487B88DE8432 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */; };
+		96FCF859AFFE467CB53B669A /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C76787EBA9364BBC8BC02C81 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */; };
+		A22982D0B350433CA39FC099 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 7E3944A6AA104D719BDAECDD /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/main.cpp */; };
+		B34FAD59A8B64B609166B65A /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 67632F464FC4410D9EEF678B /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */; };
+		B7AC7A24E3774593963E5668 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */ = {isa = PBXBuildFile; fileRef = 1E62CD81217B46F980427872 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */; };
+		BBA2DE4C87774A668728A5D3 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */ = {isa = PBXBuildFile; fileRef = 03045644FC0644E1A94EC3CE /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */; };
+		C323CE71D8904E30A0D1A581 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */ = {isa = PBXBuildFile; fileRef = CDAAFBD854C646AE9DDE39DB /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */; };
+		CDB71D8FF8A6404F854C113F /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */ = {isa = PBXBuildFile; fileRef = 869B5B154A5246EEB8641463 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */; };
+		DDFA03782CDD451AA4976D52 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DB793C0C21C342BC92D802E4 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/CMakeLists.txt */; };
+		E5B50580FBDB49949E784F83 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp */ = {isa = PBXBuildFile; fileRef = 2A42DD9F23DC4768AB031741 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp */; };
+		F19C649ABF1A4E28AEBFB0B6 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc */ = {isa = PBXBuildFile; fileRef = C35A8BA657AC4FC694D5FDA6 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc */; };
+		F3AAF93864604EC381D558A4 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 549B18CADBA7486EA81E9FF7 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */; };
+		FCDF93A9086E44CBB77DA7C3 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */ = {isa = PBXBuildFile; fileRef = 23EFEC0102474948BB2407BA /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		562AF9DDE10A4152842936F0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D5C77EA2C3214196A415DE4D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E727189BC95845FD8499F6DE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F06EEC636CA8485498B75AF4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		187466F730C946CE9359A01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D53ABFFF7943AE84BB99A0;
+			remoteInfo = gmock_main;
+		};
+		21E205962A4C43309A018E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816DE11A49EE45F09FD353E6;
+			remoteInfo = gmock;
+		};
+		2ADC5ECF05C540BD98539769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA0B5710CAA44F39B8F80FE;
+			remoteInfo = pugixml;
+		};
+		31EC5EF6FAFA4F57AA81FA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA0B5710CAA44F39B8F80FE;
+			remoteInfo = pugixml;
+		};
+		3D1131AA16F2407F87A220E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E2AA51369064A9F997CC413;
+			remoteInfo = gtest_main;
+		};
+		401899724E9E405FB792D31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9597C104C4D54FB19EE54C92;
+			remoteInfo = test;
+		};
+		4A220C6BF03443D0944F5696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606FD5200A7F4A468E4D11B0;
+			remoteInfo = ZERO_CHECK;
+		};
+		5B3108F40DC54DF68783335C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E2AA51369064A9F997CC413;
+			remoteInfo = gtest_main;
+		};
+		601425A9117B4C3285549FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9892CB357374D55A285D18A;
+			remoteInfo = gtest;
+		};
+		617837A5C8A2499089361471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA0B5710CAA44F39B8F80FE;
+			remoteInfo = pugixml;
+		};
+		757CF592A01D431081EB102A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981EFD7D7BA1430C82BA6BE9;
+			remoteInfo = ALL_BUILD;
+		};
+		78095B1D7E9A495593777041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816DE11A49EE45F09FD353E6;
+			remoteInfo = gmock;
+		};
+		7E291A062833429F82627AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9892CB357374D55A285D18A;
+			remoteInfo = gtest;
+		};
+		AD47ECF72B3F40E6AA7B969D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9892CB357374D55A285D18A;
+			remoteInfo = gtest;
+		};
+		CF4D6824AB994185972355B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606FD5200A7F4A468E4D11B0;
+			remoteInfo = ZERO_CHECK;
+		};
+		E47F9AD7CF7F4721809B4246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EDDF371FA28410D93921F72;
+			remoteInfo = OSM_A_star_search;
+		};
+		F2FD5D04E4B142D9B9989CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9892CB357374D55A285D18A;
+			remoteInfo = gtest;
+		};
+		F47161A5E1544128B6E2EC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606FD5200A7F4A468E4D11B0;
+			remoteInfo = ZERO_CHECK;
+		};
+		F4BDC5B983AB41AABE360ECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA72EAA59EC342ECA20BEF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9892CB357374D55A285D18A;
+			remoteInfo = gtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016EC66FB16242799572A40E /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = model.cpp; path = src/model.cpp; sourceTree = SOURCE_ROOT; };
+		03045644FC0644E1A94EC3CE /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = model.cpp; path = src/model.cpp; sourceTree = SOURCE_ROOT; };
+		0E0E0ADCC9E443318102501C /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = thirdparty/googletest/googlemock/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		175A1FC192DB4B6D95D4549B /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = thirdparty/googletest/googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1E62CD81217B46F980427872 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = route_planner.cpp; path = src/route_planner.cpp; sourceTree = SOURCE_ROOT; };
+		23EFEC0102474948BB2407BA /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pugixml.hpp; path = thirdparty/pugixml/src/pugixml.hpp; sourceTree = SOURCE_ROOT; };
+		25075571A18F447493304D28 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A42DD9F23DC4768AB031741 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utest_rp_a_star_search.cpp; path = test/utest_rp_a_star_search.cpp; sourceTree = SOURCE_ROOT; };
+		2AE981248875426B95EB7F19 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gmock_main.cc; path = thirdparty/googletest/googlemock/src/gmock_main.cc; sourceTree = SOURCE_ROOT; };
+		44551A3DA464487B88DE8432 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = thirdparty/pugixml/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		48A1CC17452E4694B46095A4 /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtestd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		549B18CADBA7486EA81E9FF7 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "thirdparty/googletest/googletest/src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		67632F464FC4410D9EEF678B /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7AA2D81A548540639BE0B045 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7E3944A6AA104D719BDAECDD /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		869B5B154A5246EEB8641463 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pugixml.cpp; path = thirdparty/pugixml/src/pugixml.cpp; sourceTree = SOURCE_ROOT; };
+		87C87CDF8527496E89A6575B /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43D55067DE4268B25C7374 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9D2D0FDA4E534F69A49D7ACE /* OSM_A_star_search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = OSM_A_star_search; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C32BECAD7B4EC29F842234 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = route_model.cpp; path = src/route_model.cpp; sourceTree = SOURCE_ROOT; };
+		BDE0E57A731D4C82BFBB4B3A /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pugiconfig.hpp; path = thirdparty/pugixml/src/pugiconfig.hpp; sourceTree = SOURCE_ROOT; };
+		BEE02C02CD1342D985E5CFAE /* gmock */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgmockd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35A8BA657AC4FC694D5FDA6 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gmock-all.cc"; path = "thirdparty/googletest/googlemock/src/gmock-all.cc"; sourceTree = SOURCE_ROOT; };
+		C76787EBA9364BBC8BC02C81 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = thirdparty/googletest/googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CDAAFBD854C646AE9DDE39DB /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = route_model.cpp; path = src/route_model.cpp; sourceTree = SOURCE_ROOT; };
+		DA101E70305648EF97D9E066 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/render.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = render.cpp; path = src/render.cpp; sourceTree = SOURCE_ROOT; };
+		DA945F81AE334313BE0A1AC9 /* gmock_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgmock_maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB793C0C21C342BC92D802E4 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = thirdparty/googletest/googlemock/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DF31738ECFE04889B7498A17 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = route_planner.cpp; path = src/route_planner.cpp; sourceTree = SOURCE_ROOT; };
+		E81EA530D5414A309EF3C1E6 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = thirdparty/googletest/googletest/src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		EB265BC7590D4FC4BE8D0A85 /* pugixml */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpugixml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D34E0CFBB74C46B5DCAC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F70CE93753B4CF0AF35F8B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E1BEA3125746B7AE4BBC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A172B7BCD1942C582E4C7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D13712F4BDF4011B7873647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E6E3D854E74B8A9080DA7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8D74D54A624994BD2C5830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04189E1586FE4F368F1483DB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				869B5B154A5246EEB8641463 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		053E20592B624F8ABBD4E996 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				541BEF0EF0024AB7B0731E15 /* CMake Rules */,
+				8B43D55067DE4268B25C7374 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1F458F8FE14640F68B788421 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AE981248875426B95EB7F19 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2BEF7284AE104CA5B0EC256F /* gmock */ = {
+			isa = PBXGroup;
+			children = (
+				30AF77FDEE9C4C679563FB67 /* Source Files */,
+				DB793C0C21C342BC92D802E4 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/CMakeLists.txt */,
+			);
+			name = gmock;
+			sourceTree = "<group>";
+		};
+		30AF77FDEE9C4C679563FB67 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35A8BA657AC4FC694D5FDA6 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		30B519EAD14A451EA4033250 /* OSM_A_star_search */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA30A1F9FB4A7084361AB8 /* Source Files */,
+				7AA2D81A548540639BE0B045 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */,
+			);
+			name = OSM_A_star_search;
+			sourceTree = "<group>";
+		};
+		413417DED2EE491A98220248 /* gmock_main */ = {
+			isa = PBXGroup;
+			children = (
+				1F458F8FE14640F68B788421 /* Source Files */,
+				0E0E0ADCC9E443318102501C /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/CMakeLists.txt */,
+			);
+			name = gmock_main;
+			sourceTree = "<group>";
+		};
+		4905C68AD18B4A38AD052B03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51956524FFC946B6B6557C9B /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				BC00FEEAB4134B27B70BD41B /* Source Files */,
+				175A1FC192DB4B6D95D4549B /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		541BEF0EF0024AB7B0731E15 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		85BB110A613B457E98521D8C /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				C5C8EF5E9B094BB29E3FDA78 /* Source Files */,
+				C76787EBA9364BBC8BC02C81 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		8D2C38507C1F492883ABEB9C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				03045644FC0644E1A94EC3CE /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */,
+				A8C32BECAD7B4EC29F842234 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */,
+				1E62CD81217B46F980427872 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */,
+				2A42DD9F23DC4768AB031741 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		97CDB4F366C44FF69956B8C0 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				8D2C38507C1F492883ABEB9C /* Source Files */,
+				67632F464FC4410D9EEF678B /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/CMakeLists.txt */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		B6DA30A1F9FB4A7084361AB8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3944A6AA104D719BDAECDD /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/main.cpp */,
+				016EC66FB16242799572A40E /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */,
+				DA101E70305648EF97D9E066 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/render.cpp */,
+				CDAAFBD854C646AE9DDE39DB /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */,
+				DF31738ECFE04889B7498A17 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B9FC10538AB54F8DBDB3F188 = {
+			isa = PBXGroup;
+			children = (
+				97CDB4F366C44FF69956B8C0 /* test */,
+				30B519EAD14A451EA4033250 /* OSM_A_star_search */,
+				053E20592B624F8ABBD4E996 /* ALL_BUILD */,
+				D5F0BC3B61F64ED5BADC7C1F /* pugixml */,
+				413417DED2EE491A98220248 /* gmock_main */,
+				2BEF7284AE104CA5B0EC256F /* gmock */,
+				51956524FFC946B6B6557C9B /* gtest_main */,
+				85BB110A613B457E98521D8C /* gtest */,
+				CAA9D933A9D041489A7E4AFA /* Products */,
+				4905C68AD18B4A38AD052B03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC00FEEAB4134B27B70BD41B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E81EA530D5414A309EF3C1E6 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C5C8EF5E9B094BB29E3FDA78 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				549B18CADBA7486EA81E9FF7 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CAA9D933A9D041489A7E4AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D2D0FDA4E534F69A49D7ACE /* OSM_A_star_search */,
+				BEE02C02CD1342D985E5CFAE /* gmock */,
+				DA945F81AE334313BE0A1AC9 /* gmock_main */,
+				48A1CC17452E4694B46095A4 /* gtest */,
+				87C87CDF8527496E89A6575B /* gtest_main */,
+				EB265BC7590D4FC4BE8D0A85 /* pugixml */,
+				25075571A18F447493304D28 /* test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F0BC3B61F64ED5BADC7C1F /* pugixml */ = {
+			isa = PBXGroup;
+			children = (
+				F35D3F37D25D459D9F25A594 /* Header Files */,
+				04189E1586FE4F368F1483DB /* Source Files */,
+				44551A3DA464487B88DE8432 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */,
+			);
+			name = pugixml;
+			sourceTree = "<group>";
+		};
+		F35D3F37D25D459D9F25A594 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE0E57A731D4C82BFBB4B3A /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */,
+				23EFEC0102474948BB2407BA /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA0B5710CAA44F39B8F80FE /* pugixml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014CA7E458584F72A61B35C9 /* Build configuration list for PBXNativeTarget "pugixml" */;
+			buildPhases = (
+				2FEA9CCD35C749E0A63B3F50 /* Sources */,
+				4A172B7BCD1942C582E4C7E6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pugixml;
+			productName = pugixml;
+			productReference = EB265BC7590D4FC4BE8D0A85 /* pugixml */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5E2AA51369064A9F997CC413 /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF01268A3234624A20897B3 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				68C5DC3266CA42238DD47294 /* Sources */,
+				4D13712F4BDF4011B7873647 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB80C34E2DF4C1C8BC307A7 /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = 87C87CDF8527496E89A6575B /* gtest_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6EDDF371FA28410D93921F72 /* OSM_A_star_search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137C5A6560384FE4A1D0B374 /* Build configuration list for PBXNativeTarget "OSM_A_star_search" */;
+			buildPhases = (
+				178EF7DA62284F29963D5046 /* Sources */,
+				47E1BEA3125746B7AE4BBC89 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A769B760967545D29EBFAF8F /* PBXTargetDependency */,
+				39DA22D4FA6F414892E1459C /* PBXTargetDependency */,
+			);
+			name = OSM_A_star_search;
+			productName = OSM_A_star_search;
+			productReference = 9D2D0FDA4E534F69A49D7ACE /* OSM_A_star_search */;
+			productType = "com.apple.product-type.tool";
+		};
+		816DE11A49EE45F09FD353E6 /* gmock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7EC9B4129F6493B8F17727A /* Build configuration list for PBXNativeTarget "gmock" */;
+			buildPhases = (
+				BDB5336FBE8143F19BE5547D /* Sources */,
+				04D34E0CFBB74C46B5DCAC2B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B29C6009D574E5DA64D3C1E /* PBXTargetDependency */,
+			);
+			name = gmock;
+			productName = gmock;
+			productReference = BEE02C02CD1342D985E5CFAE /* gmock */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9597C104C4D54FB19EE54C92 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E93675661D94CBD9B470ECE /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				00E42493DBBB41BAB0AD4D94 /* Sources */,
+				1F70CE93753B4CF0AF35F8B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C40EB60D55454C8332715F /* PBXTargetDependency */,
+				430D6B10FA7A4205BD88F869 /* PBXTargetDependency */,
+				3C177C7328584E4AB24512D7 /* PBXTargetDependency */,
+				56FAA98FCC0F4F7FB2A68A7D /* PBXTargetDependency */,
+			);
+			name = test;
+			productName = test;
+			productReference = 25075571A18F447493304D28 /* test */;
+			productType = "com.apple.product-type.tool";
+		};
+		A6D53ABFFF7943AE84BB99A0 /* gmock_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2313EEEB8BCD484992E88E94 /* Build configuration list for PBXNativeTarget "gmock_main" */;
+			buildPhases = (
+				7ABCF41D6BBE4729A898A81D /* Sources */,
+				9D8D74D54A624994BD2C5830 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0313BF2314864400BFBB572E /* PBXTargetDependency */,
+				FD88ED4D2C874A83B46CEEEA /* PBXTargetDependency */,
+			);
+			name = gmock_main;
+			productName = gmock_main;
+			productReference = DA945F81AE334313BE0A1AC9 /* gmock_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9892CB357374D55A285D18A /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35EC7A05B1145BA95257D08 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				4664DF64DB7845108CCC4BD4 /* Sources */,
+				68E6E3D854E74B8A9080DA7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 48A1CC17452E4694B46095A4 /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA72EAA59EC342ECA20BEF89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = F5D2615D089D40838DBEF0BB /* Build configuration list for PBXProject "OSM_A_star_search" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E727189BC95845FD8499F6DE /* Debug */,
+				F06EEC636CA8485498B75AF4 /* Release */,
+				562AF9DDE10A4152842936F0 /* MinSizeRel */,
+				D5C77EA2C3214196A415DE4D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B9FC10538AB54F8DBDB3F188;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				981EFD7D7BA1430C82BA6BE9 /* ALL_BUILD */,
+				6EDDF371FA28410D93921F72 /* OSM_A_star_search */,
+				606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */,
+				816DE11A49EE45F09FD353E6 /* gmock */,
+				A6D53ABFFF7943AE84BB99A0 /* gmock_main */,
+				F9892CB357374D55A285D18A /* gtest */,
+				5E2AA51369064A9F997CC413 /* gtest_main */,
+				84D371DDA46346DC9765EE01 /* install */,
+				5AA0B5710CAA44F39B8F80FE /* pugixml */,
+				9597C104C4D54FB19EE54C92 /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59D7F901BD0A4F4AA9411BE7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		851B064A7E7A424ABD09502B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		99D99CD8E5254389872D032B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9A80768FA619468DB8384D05 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D8BF945624574C32B141C5C5 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F7AB1FD453684FCF9E272EC7 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  make -f /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  make -f /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  make -f /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX
+  make -f /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E42493DBBB41BAB0AD4D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA2DE4C87774A668728A5D3 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */,
+				4659937A7BCF45E7BE441BF8 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */,
+				B7AC7A24E3774593963E5668 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */,
+				E5B50580FBDB49949E784F83 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EF7DA62284F29963D5046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22982D0B350433CA39FC099 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/main.cpp */,
+				9508FF791A6845FDA378FF67 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/model.cpp */,
+				3A671E3D0FC74A48B4353D5D /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/render.cpp */,
+				C323CE71D8904E30A0D1A581 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_model.cpp */,
+				3B9C286998124F119A0268F1 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/src/route_planner.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEA9CCD35C749E0A63B3F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB71D8FF8A6404F854C113F /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4664DF64DB7845108CCC4BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AAF93864604EC381D558A4 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C5DC3266CA42238DD47294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FA6C86FD2D4FDD994EFFB7 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABCF41D6BBE4729A898A81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2B853CF2BD408BA6AEC89F /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5336FBE8143F19BE5547D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C649ABF1A4E28AEBFB0B6 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0313BF2314864400BFBB572E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816DE11A49EE45F09FD353E6 /* gmock */;
+			targetProxy = 78095B1D7E9A495593777041 /* PBXContainerItemProxy */;
+		};
+		0E2B3FE5829646DB8FF70103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */;
+			targetProxy = 4A220C6BF03443D0944F5696 /* PBXContainerItemProxy */;
+		};
+		0E69BC2C52BC4541B527C140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EDDF371FA28410D93921F72 /* OSM_A_star_search */;
+			targetProxy = E47F9AD7CF7F4721809B4246 /* PBXContainerItemProxy */;
+		};
+		1B29C6009D574E5DA64D3C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9892CB357374D55A285D18A /* gtest */;
+			targetProxy = AD47ECF72B3F40E6AA7B969D /* PBXContainerItemProxy */;
+		};
+		2B80C08A8C3C4EDF9A88DA54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816DE11A49EE45F09FD353E6 /* gmock */;
+			targetProxy = 21E205962A4C43309A018E92 /* PBXContainerItemProxy */;
+		};
+		2E6033709E484AFDB515A3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E2AA51369064A9F997CC413 /* gtest_main */;
+			targetProxy = 3D1131AA16F2407F87A220E3 /* PBXContainerItemProxy */;
+		};
+		337A7F0C63384C33BD1DBAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981EFD7D7BA1430C82BA6BE9 /* ALL_BUILD */;
+			targetProxy = 757CF592A01D431081EB102A /* PBXContainerItemProxy */;
+		};
+		39DA22D4FA6F414892E1459C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA0B5710CAA44F39B8F80FE /* pugixml */;
+			targetProxy = 2ADC5ECF05C540BD98539769 /* PBXContainerItemProxy */;
+		};
+		3C177C7328584E4AB24512D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E2AA51369064A9F997CC413 /* gtest_main */;
+			targetProxy = 5B3108F40DC54DF68783335C /* PBXContainerItemProxy */;
+		};
+		430D6B10FA7A4205BD88F869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA0B5710CAA44F39B8F80FE /* pugixml */;
+			targetProxy = 617837A5C8A2499089361471 /* PBXContainerItemProxy */;
+		};
+		56FAA98FCC0F4F7FB2A68A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9892CB357374D55A285D18A /* gtest */;
+			targetProxy = F2FD5D04E4B142D9B9989CE5 /* PBXContainerItemProxy */;
+		};
+		6CB80C34E2DF4C1C8BC307A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9892CB357374D55A285D18A /* gtest */;
+			targetProxy = 7E291A062833429F82627AAE /* PBXContainerItemProxy */;
+		};
+		A769B760967545D29EBFAF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */;
+			targetProxy = F47161A5E1544128B6E2EC64 /* PBXContainerItemProxy */;
+		};
+		AB149D4C4A944A60964C6C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9597C104C4D54FB19EE54C92 /* test */;
+			targetProxy = 401899724E9E405FB792D31C /* PBXContainerItemProxy */;
+		};
+		B0CEF13F180048B3B23DF1E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D53ABFFF7943AE84BB99A0 /* gmock_main */;
+			targetProxy = 187466F730C946CE9359A01D /* PBXContainerItemProxy */;
+		};
+		B42F61E30C034B339E626463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9892CB357374D55A285D18A /* gtest */;
+			targetProxy = F4BDC5B983AB41AABE360ECE /* PBXContainerItemProxy */;
+		};
+		D1C40EB60D55454C8332715F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */;
+			targetProxy = CF4D6824AB994185972355B9 /* PBXContainerItemProxy */;
+		};
+		F81F943D0F9E4BE1809F2405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA0B5710CAA44F39B8F80FE /* pugixml */;
+			targetProxy = 31EC5EF6FAFA4F57AA81FA00 /* PBXContainerItemProxy */;
+		};
+		FD88ED4D2C874A83B46CEEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9892CB357374D55A285D18A /* gtest */;
+			targetProxy = 601425A9117B4C3285549FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AF6D25BF5964034ADB70171 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1029D9BB98B94539B08694DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		154BB79A63E341DA91B18100 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		19C30E4FBD7745D3AA52DC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include    '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -Wl,-rpath,/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -L/opt/X11/lib -L/opt/local/lib -L/usr/local/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Debug/libgtest_maind.a","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/Debug/libpugixml.a","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Debug/libgtestd.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		20B9EBD27524489EBED1A95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		21C69683A9EC4EFAA6D2A95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		29F1EAD621D7448DAF4018E8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2B12470C454445FCAED688D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = Debug;
+		};
+		2D5E342FDBE1433B90ACDA01 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		323DB96105284D599AFFA853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include    '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		371B598F99D24982BC2356D7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3CB4C38BD5764DF694FAD5C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3EE9FB17FCE34D9A91A279ED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4007857051C14A3EBC086516 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -Wl,-rpath,/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -L/opt/X11/lib -L/opt/local/lib -L/usr/local/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/RelWithDebInfo/libpugixml.a",/usr/local/lib/libio2d_coregraphics_mac.a,/usr/local/lib/libio2d_coregraphics.a,/usr/local/lib/libio2d_core.a,"-framework CoreFoundation","-framework ImageIO","-framework CoreGraphics","-framework Cocoa","-framework AppKit","-framework CoreServices");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OSM_A_star_search;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/io2d);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		49C59AE24EA245D291D346B0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4E09380B66794FAE8BE6FDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5590D914B77647C9BC8CBF81 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = MinSizeRel;
+		};
+		600D184316FA498AB1B227D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -Wl,-rpath,/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -L/opt/X11/lib -L/opt/local/lib -L/usr/local/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Release/libgtest_main.a","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/Release/libpugixml.a","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Release/libgtest.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		68DB108460694137990D9D38 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -Wl,-rpath,/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -L/opt/X11/lib -L/opt/local/lib -L/usr/local/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/RelWithDebInfo/libgtest_main.a","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/RelWithDebInfo/libpugixml.a","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/RelWithDebInfo/libgtest.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6D49A1A8AF404BEC8897BF0E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6EE7E499B09C4A83A7D8B4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmockd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7AE99497D48A4623A2B14955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7B14AD1F7C5D48B18060708C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7CE73B66D3D340399DDDE9CA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -Wl,-rpath,/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -L/opt/X11/lib -L/opt/local/lib -L/usr/local/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/MinSizeRel/libgtest_main.a","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/MinSizeRel/libpugixml.a","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/MinSizeRel/libgtest.a");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		802222934072490D9F7DF683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = Release;
+		};
+		8BEB6E580238416588360E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8D9AFA54F2A645158C46E87C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9305D99F70B74A82BEDC1DA9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		950C2BA613614EECBDD1F18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9BB055D8EC5646769DB24477 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9C3801CC898D417EB882C7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_maind;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9D9E84E6111445ED89DF76C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -Wl,-rpath,/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -L/opt/X11/lib -L/opt/local/lib -L/usr/local/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/Release/libpugixml.a",/usr/local/lib/libio2d_coregraphics_mac.a,/usr/local/lib/libio2d_coregraphics.a,/usr/local/lib/libio2d_core.a,"-framework CoreFoundation","-framework ImageIO","-framework CoreGraphics","-framework Cocoa","-framework AppKit","-framework CoreServices");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OSM_A_star_search;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/io2d);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A59DD015263B4F1EA3B608BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A69C8183354949C1A9790232 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A804CCED7C424FDFB61C2DE3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C16F6AEC26404D2CA6D977F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C2B68132337A4515B8E8AA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C381677B0DDC47C9A80DC8D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -Wl,-rpath,/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -L/opt/X11/lib -L/opt/local/lib -L/usr/local/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/MinSizeRel/libpugixml.a",/usr/local/lib/libio2d_coregraphics_mac.a,/usr/local/lib/libio2d_coregraphics.a,/usr/local/lib/libio2d_core.a,"-framework CoreFoundation","-framework ImageIO","-framework CoreGraphics","-framework Cocoa","-framework AppKit","-framework CoreServices");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OSM_A_star_search;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/io2d);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D835D7C7565F4104AA1E1EE8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG  -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DFF6FDCF95E74BB1B7A153AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include    '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -Wl,-rpath,/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/lib -L/opt/X11/lib -L/opt/local/lib -L/usr/local/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/Debug/libpugixml.a",/usr/local/lib/libio2d_coregraphics_mac.a,/usr/local/lib/libio2d_coregraphics.a,/usr/local/lib/libio2d_core.a,"-framework CoreFoundation","-framework ImageIO","-framework CoreGraphics","-framework Cocoa","-framework AppKit","-framework CoreServices");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OSM_A_star_search;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/io2d);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E0DDE67B033445F0AC593985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E315DD93BFB14CE8A2B84281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtestd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F486D2F751A1405FA8C8CA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DGTEST_HAS_PTHREAD=1   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_maind;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F9BFBE29FB3140A3931B742A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014CA7E458584F72A61B35C9 /* Build configuration list for PBXNativeTarget "pugixml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323DB96105284D599AFFA853 /* Debug */,
+				E0DDE67B033445F0AC593985 /* Release */,
+				8D9AFA54F2A645158C46E87C /* MinSizeRel */,
+				3EE9FB17FCE34D9A91A279ED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0B3271AE471347C7A1A014D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E09380B66794FAE8BE6FDFB /* Debug */,
+				8BEB6E580238416588360E7C /* Release */,
+				9305D99F70B74A82BEDC1DA9 /* MinSizeRel */,
+				A804CCED7C424FDFB61C2DE3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		137C5A6560384FE4A1D0B374 /* Build configuration list for PBXNativeTarget "OSM_A_star_search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF6FDCF95E74BB1B7A153AB /* Debug */,
+				9D9E84E6111445ED89DF76C8 /* Release */,
+				C381677B0DDC47C9A80DC8D3 /* MinSizeRel */,
+				4007857051C14A3EBC086516 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1FF01268A3234624A20897B3 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3801CC898D417EB882C7C6 /* Debug */,
+				20B9EBD27524489EBED1A95D /* Release */,
+				29F1EAD621D7448DAF4018E8 /* MinSizeRel */,
+				7B14AD1F7C5D48B18060708C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22A397ACA3034491A417D221 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C69683A9EC4EFAA6D2A95B /* Debug */,
+				A59DD015263B4F1EA3B608BB /* Release */,
+				A69C8183354949C1A9790232 /* MinSizeRel */,
+				6D49A1A8AF404BEC8897BF0E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2313EEEB8BCD484992E88E94 /* Build configuration list for PBXNativeTarget "gmock_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486D2F751A1405FA8C8CA1F /* Debug */,
+				950C2BA613614EECBDD1F18C /* Release */,
+				9BB055D8EC5646769DB24477 /* MinSizeRel */,
+				0AF6D25BF5964034ADB70171 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E93675661D94CBD9B470ECE /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C30E4FBD7745D3AA52DC1C /* Debug */,
+				600D184316FA498AB1B227D8 /* Release */,
+				7CE73B66D3D340399DDDE9CA /* MinSizeRel */,
+				68DB108460694137990D9D38 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A26182FCFB6042CDB4BE0627 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1029D9BB98B94539B08694DD /* Debug */,
+				C16F6AEC26404D2CA6D977F4 /* Release */,
+				154BB79A63E341DA91B18100 /* MinSizeRel */,
+				F9BFBE29FB3140A3931B742A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7EC9B4129F6493B8F17727A /* Build configuration list for PBXNativeTarget "gmock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE7E499B09C4A83A7D8B4FD /* Debug */,
+				C2B68132337A4515B8E8AA15 /* Release */,
+				3CB4C38BD5764DF694FAD5C4 /* MinSizeRel */,
+				2D5E342FDBE1433B90ACDA01 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F35EC7A05B1145BA95257D08 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E315DD93BFB14CE8A2B84281 /* Debug */,
+				7AE99497D48A4623A2B14955 /* Release */,
+				D835D7C7565F4104AA1E1EE8 /* MinSizeRel */,
+				371B598F99D24982BC2356D7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5D2615D089D40838DBEF0BB /* Build configuration list for PBXProject "OSM_A_star_search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B12470C454445FCAED688D3 /* Debug */,
+				802222934072490D9F7DF683 /* Release */,
+				5590D914B77647C9BC8CBF81 /* MinSizeRel */,
+				49C59AE24EA245D291D346B0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA72EAA59EC342ECA20BEF89 /* Project object */;
+}

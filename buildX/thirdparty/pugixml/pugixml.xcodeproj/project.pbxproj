@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04A9BEE70A1C4AD8B292F813 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				ED885354E5E643CFA62CA0F4 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		84D371DDA46346DC9765EE01 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A8E44808948F40F297B5AA93 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				4465959626D34F6589D8BD14 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				94E38236446A49B689AFF7BC /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		981EFD7D7BA1430C82BA6BE9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 323113DF91704137890C2DE7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1C43DAB719EA4FE2A649EC5D /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1B5051CE09C94EC2B80A930D /* PBXTargetDependency */,
+				5C45A02BDFF64D9DA1076699 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1D17DB9B02DB4AF983DB13FF /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */ = {isa = PBXBuildFile; fileRef = F242EAC2A0DE48F5B7BF2C29 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */; };
+		36BC0FD867F44A949C8484ED /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */ = {isa = PBXBuildFile; fileRef = F6F144D35F4E49CA9DD0D7AA /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */; };
+		542AC1286946494F9081CB2B /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */ = {isa = PBXBuildFile; fileRef = 946CF056F8F14B7581F3C407 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */; };
+		A812E5D9DE834FEA9FAA1894 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 99D70955ECE54E87970786B1 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4D51E1143E4347F185D24393 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		61C92868072549048B2AEAE4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B23F4CBBCAC5412E829D9AD5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B7F62CECDACE4337BAC56CD6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		668FDDEF38084699B120AC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED20DD3CD4CE4441B51B272D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606FD5200A7F4A468E4D11B0;
+			remoteInfo = ZERO_CHECK;
+		};
+		A1306CF7756040DB989D038F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED20DD3CD4CE4441B51B272D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA0B5710CAA44F39B8F80FE;
+			remoteInfo = pugixml;
+		};
+		A6320276924541CE8E92F93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED20DD3CD4CE4441B51B272D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606FD5200A7F4A468E4D11B0;
+			remoteInfo = ZERO_CHECK;
+		};
+		E5AADDCD9F864867AB43618F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED20DD3CD4CE4441B51B272D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981EFD7D7BA1430C82BA6BE9;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88EF256253FF463B82BE67D4 /* pugixml */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpugixml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		946CF056F8F14B7581F3C407 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pugixml.hpp; path = src/pugixml.hpp; sourceTree = SOURCE_ROOT; };
+		99D70955ECE54E87970786B1 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E7D1C005EC26418DB73BEE12 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F242EAC2A0DE48F5B7BF2C29 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pugiconfig.hpp; path = src/pugiconfig.hpp; sourceTree = SOURCE_ROOT; };
+		F6F144D35F4E49CA9DD0D7AA /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pugixml.cpp; path = src/pugixml.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E0C607563AE4CD38ED81CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ABAE307695F4440BD3E6BE4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5BCD5E75DA324C868FFA21D1 /* pugixml */ = {
+			isa = PBXGroup;
+			children = (
+				E531630594B54DCB95CA3C69 /* Header Files */,
+				9882A9F110964C839BF9D9A6 /* Source Files */,
+				99D70955ECE54E87970786B1 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */,
+			);
+			name = pugixml;
+			sourceTree = "<group>";
+		};
+		60D1CDB688E24680987ED303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88EF256253FF463B82BE67D4 /* pugixml */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A4466D4147B4AF390AA8888 = {
+			isa = PBXGroup;
+			children = (
+				5BCD5E75DA324C868FFA21D1 /* pugixml */,
+				F1B814B202CE4A74B93108E5 /* ALL_BUILD */,
+				60D1CDB688E24680987ED303 /* Products */,
+				C1E2519FE37743728D24C960 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9882A9F110964C839BF9D9A6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6F144D35F4E49CA9DD0D7AA /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C1E2519FE37743728D24C960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E531630594B54DCB95CA3C69 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F242EAC2A0DE48F5B7BF2C29 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */,
+				946CF056F8F14B7581F3C407 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F1B814B202CE4A74B93108E5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3ABAE307695F4440BD3E6BE4 /* CMake Rules */,
+				E7D1C005EC26418DB73BEE12 /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA0B5710CAA44F39B8F80FE /* pugixml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD9CC7972CD4E349D6005DF /* Build configuration list for PBXNativeTarget "pugixml" */;
+			buildPhases = (
+				3AE56EFDD70041E0BB824BFD /* Sources */,
+				8E0C607563AE4CD38ED81CC4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3461AA0DFDE745C2ADC4E769 /* PBXTargetDependency */,
+			);
+			name = pugixml;
+			productName = pugixml;
+			productReference = 88EF256253FF463B82BE67D4 /* pugixml */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED20DD3CD4CE4441B51B272D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 8E0CDCB8AD2E4CF5B4B30A10 /* Build configuration list for PBXProject "pugixml" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B7F62CECDACE4337BAC56CD6 /* Debug */,
+				B23F4CBBCAC5412E829D9AD5 /* Release */,
+				61C92868072549048B2AEAE4 /* MinSizeRel */,
+				4D51E1143E4347F185D24393 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7A4466D4147B4AF390AA8888;
+			projectDirPath = ../../../thirdparty/pugixml;
+			projectRoot = "";
+			targets = (
+				981EFD7D7BA1430C82BA6BE9 /* ALL_BUILD */,
+				606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */,
+				84D371DDA46346DC9765EE01 /* install */,
+				5AA0B5710CAA44F39B8F80FE /* pugixml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171883244C4F4FE2A0C87DFE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1C43DAB719EA4FE2A649EC5D /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2924F335E4C44078BAEA1DEA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4465959626D34F6589D8BD14 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5BB00F37838243A5A49D33C7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ED885354E5E643CFA62CA0F4 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  make -f /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  make -f /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  make -f /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  make -f /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE56EFDD70041E0BB824BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BC0FD867F44A949C8484ED /* /Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B5051CE09C94EC2B80A930D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA0B5710CAA44F39B8F80FE /* pugixml */;
+			targetProxy = A1306CF7756040DB989D038F /* PBXContainerItemProxy */;
+		};
+		3461AA0DFDE745C2ADC4E769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */;
+			targetProxy = 668FDDEF38084699B120AC06 /* PBXContainerItemProxy */;
+		};
+		5C45A02BDFF64D9DA1076699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606FD5200A7F4A468E4D11B0 /* ZERO_CHECK */;
+			targetProxy = A6320276924541CE8E92F93E /* PBXContainerItemProxy */;
+		};
+		94E38236446A49B689AFF7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981EFD7D7BA1430C82BA6BE9 /* ALL_BUILD */;
+			targetProxy = E5AADDCD9F864867AB43618F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02177CA63D6D40FB9F100E79 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0EBF377F96174B13BA7F6195 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		110CEF0CEB1949F9AF56E564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3AD91EE0F9444CAF9D7235E7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		425C7923EDA34A66B761D8D8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4BEE6134165D4E65BCB84D75 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5A80E14F2586407C85CE4EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/build";
+			};
+			name = Release;
+		};
+		6E543FF6578C417192195F33 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/build";
+			};
+			name = RelWithDebInfo;
+		};
+		6EE0CC64984B4159B4E95628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7B0A908BA17B494DA3660150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		810D8BA5D5694E4B91C51841 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		81AF8903CA634EF3A914935F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/build";
+			};
+			name = Debug;
+		};
+		83EB7B7CAB0E480FB342C6B5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/build";
+			};
+			name = MinSizeRel;
+		};
+		8AB99D5B31144E09BAC93170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8B2D7F68F38846EC93477B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		997C3C3D826C4149BD5E16E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A3BA028A65D946F3A83F3909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D5EF27FD65E44526A7AA1E50 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DBC058954E1A4A808DF56C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/hanzchoi/Documents/udacity/clang+llvm-6.0.0-x86_64-apple-darwin/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include    '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E51D521D28944A7CB5CF26CE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanzchoi/Documents/udacity/projects/CppND-Route-Planning-Project/buildX/thirdparty/pugixml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A9BEE70A1C4AD8B292F813 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BA028A65D946F3A83F3909 /* Debug */,
+				8AB99D5B31144E09BAC93170 /* Release */,
+				D5EF27FD65E44526A7AA1E50 /* MinSizeRel */,
+				3AD91EE0F9444CAF9D7235E7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		323113DF91704137890C2DE7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997C3C3D826C4149BD5E16E9 /* Debug */,
+				7B0A908BA17B494DA3660150 /* Release */,
+				02177CA63D6D40FB9F100E79 /* MinSizeRel */,
+				E51D521D28944A7CB5CF26CE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CD9CC7972CD4E349D6005DF /* Build configuration list for PBXNativeTarget "pugixml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC058954E1A4A808DF56C59 /* Debug */,
+				8B2D7F68F38846EC93477B11 /* Release */,
+				4BEE6134165D4E65BCB84D75 /* MinSizeRel */,
+				810D8BA5D5694E4B91C51841 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E0CDCB8AD2E4CF5B4B30A10 /* Build configuration list for PBXProject "pugixml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AF8903CA634EF3A914935F /* Debug */,
+				5A80E14F2586407C85CE4EFF /* Release */,
+				83EB7B7CAB0E480FB342C6B5 /* MinSizeRel */,
+				6E543FF6578C417192195F33 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8E44808948F40F297B5AA93 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110CEF0CEB1949F9AF56E564 /* Debug */,
+				6EE0CC64984B4159B4E95628 /* Release */,
+				0EBF377F96174B13BA7F6195 /* MinSizeRel */,
+				425C7923EDA34A66B761D8D8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED20DD3CD4CE4441B51B272D /* Project object */;
+}
